@@ -7,8 +7,11 @@ public class EnemyMovement : MonoBehaviour
     private Transform target;
     private int waypointIndex = 0;
 
+    public WaveSpawner waveSpawner;
+
     private void Start()
     {
+        waveSpawner = GetComponent<WaveSpawner>();
         target = Waypoints.points[0];
     }
 
@@ -27,6 +30,7 @@ public class EnemyMovement : MonoBehaviour
     {
         if (waypointIndex >= Waypoints.points.Length - 1)
         {
+            //waveSpawner.remainingEnemies--;
             Destroy(gameObject);
             return;
         }
