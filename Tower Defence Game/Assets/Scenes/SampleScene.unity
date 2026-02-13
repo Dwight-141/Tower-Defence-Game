@@ -243,6 +243,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8716102045298685396, guid: f7fdfcdf55502f94694ff3549f2b3176, type: 3}
   m_PrefabInstance: {fileID: 29901155}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &50869395 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4336765703880935279, guid: f87cfbc0c429ca44fb167a944e5f97c9, type: 3}
+  m_PrefabInstance: {fileID: 663205708}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &55519061
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3096,6 +3101,14 @@ PrefabInstance:
       propertyPath: speed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 3041202523366591466, guid: f87cfbc0c429ca44fb167a944e5f97c9, type: 3}
+      propertyPath: firePoint
+      value: 
+      objectReference: {fileID: 50869395}
+    - target: {fileID: 3041202523366591466, guid: f87cfbc0c429ca44fb167a944e5f97c9, type: 3}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 1453169592045075349, guid: e52e137010d4b6245b41a612fca3ebdd, type: 3}
     - target: {fileID: 3771729386588849275, guid: f87cfbc0c429ca44fb167a944e5f97c9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5
